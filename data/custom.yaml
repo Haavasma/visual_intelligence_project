@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./custom_data/test_full_validation/images/train # 118287 images
+val: ./custom_data/test_full_validation/images/val # 118287 images
+
+# number of classes
+nc: 4
+
+# class names
+names: ["D00", "D10", "D20", "D40"]
